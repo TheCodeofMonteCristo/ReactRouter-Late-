@@ -1,0 +1,69 @@
+/* Global styles for the application. */
+
+* {
+  font-family: Arial, sans-serif; /* Global font */
+  margin: 0; /* Remove default margin */
+}
+
+body,
+body > div {
+  height: 100vh; /* Full height for body */
+  width: 100vw; /* Full width for body */
+}
+
+#container {
+  height: 100%; /* Full height for container */
+  display: flex; /* Flex layout */
+  flex-direction: column; /* Vertical stacking */
+}
+
+#navbar {
+  padding: 2em; /* Padding for navbar */
+  justify-content: space-evenly; /* Space links evenly */
+  display: flex; /* Flex layout for navbar */
+}
+
+#main-section {
+  flex-grow: 1; /* Allow main section to grow */
+  display: flex; /* Flex layout for main section */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+}
+
+#footer {
+  padding: 1em; /* Padding for footer */
+  text-align: center; /* Centered text */
+  background-color: #333; /* Dark background for footer */
+  color: white; /* White text color */
+}
+
+/* Styles for individual components */
+.red {
+  background-color: #b05f6d; /* Red background */
+  color: white; /* White text color */
+  display: flex; /* Flex layout */
+  justify-content: center; /* Center items */
+  align-items: center; /* Center items */
+  height: 100%; /* Full height */
+  width: 100%; /* Full width */
+}
+
+.blue {
+  background-color: #275db3; /* Blue background */
+  color: white; /* White text color */
+  display: flex; /* Flex layout */
+  justify-content: center; /* Center items */
+  align-items: center; /* Center items */
+  height: 100%; /* Full height */
+  width: 100%; /* Full width */
+}
+
+.home {
+  background-color: #85a392; /* Light green background */
+  color: white; /* White text color */
+  display: flex; /* Flex layout */
+  justify-content: center; /* Center items */
+  align-items: center; /* Center items */
+  height: 100%; /* Full height */
+  width: 100%; /* Full width */
+}
